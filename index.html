@@ -7,6 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <figure class="left-main">
+            <img src="img/aynacalısması.jpg" alt="Mindown-I Looper Album Cover">
+            <figcaption>"I Looper" by Mindown</figcaption>
+        </figure>
+        <section class="right-main">
+            <div class="explain">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quos dolorum excepturi nihil, cupiditate pariatur molestiae, consectetur doloribus quod enim iure ducimus sed at! Ipsum minima quasi deleniti vel blanditiis.</div>
+            <div class="form-section">
+                <h1 class="reply-title">Lets go!</h1>
+                <form id="accountform" class="account-form">
+                  <div class="account-form-name">
+                    <input id="name" placeholder="Name *" name="name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                    <label for="name" data-help="¿Are you 11 from Stranger Things?">Name</label>
+                  </div>
+                  <div class="account-form-surname">
+                    <input id="surname" placeholder="Surname *" name="surname" type="text" value="" size="30" maxlength="245" required>
+                    <label for="surname" data-help="A girl has no name- Arya Stark">Surname</label>
+                  </div>
+                  <div class="account-form-email">
+                    <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
+                    <label for="email" data-help="Format email@email.com">Email</label>
+                  </div>
+                  <div class="account-form-tel">
+                    <input id="tel" placeholder="Phone" name="tel" type="tel" value="" size="30" maxlength="200">
+                    <label for="tel" data-help="Should start with http:// o https://">Phone</label>
+                  </div>
+                  <div class="account-form-password">
+                    <input id="pwd" placeholder="Password *" name="password" type="password" value="" size="30" maxlength="30" required>
+                    <label for="pwd" data-help="" >Password</label>
+                  </div>
+                  <div class="account-form-confpassword">
+                    <input id="confpwd" placeholder="Confirm Password *" name="password" type="password" value="" size="30" maxlength="30" required>
+                    <label for="confpwd" data-help="">Confirm Password</label>
+                  </div>
+                  <div class="form-submit">
+                    <input name="submit" type="submit" id="submit" class="submit" value="Create Account">
+                  </div>
+                </form>
+              </div>
+        </section>
+    </main>
 </body>
 </html>
